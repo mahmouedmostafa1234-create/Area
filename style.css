@@ -1403,16 +1403,3 @@ button:focus-visible {
     margin: 30px 0;
   }
 }
-
-.navbar{
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px 26px;
-  background-color: #FFFFFF;
-
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  border-bottom: 1px solid #f0f0f0;
-}
