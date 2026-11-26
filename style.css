@@ -1027,7 +1027,7 @@ button:focus-visible {
 }
 
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
   .tabs,
   .bt {
@@ -1058,7 +1058,7 @@ button:focus-visible {
   }
 
   body.menu-open {
-    overflow: hidden;      
+    overflow: hidden;     
   }
 
   .menu {
@@ -1197,8 +1197,8 @@ button:focus-visible {
   .Headline-icon,
   .PH,
   .Work-1 {
-    border-radius: 20px;  
-  }  
+    border-radius: 20px;    
+  }
   .photo,
   .photo-2 {
     margin-top: 40px;
@@ -1239,7 +1239,6 @@ button:focus-visible {
     padding: 0 20px;
   }
 
-  
   .specs {
     margin-top: 50px;
   }
@@ -1248,7 +1247,8 @@ button:focus-visible {
   }
   .specs-Table {
     padding: 30px 20px;
-    overflow-x: auto;      
+    overflow-x: auto;       
+  }
   .compare-table {
     min-width: 640px;
   }
@@ -1322,9 +1322,7 @@ button:focus-visible {
   .Credits h6 {
     white-space: nowrap;
   }
-  }
 }
-
 
 @media (max-width: 575px) {
 
