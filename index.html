@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=DM+Sans&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -18,29 +22,29 @@
 
         <div class="Tabs">
             <div class="M-tabs">
-                <details>
-                    <summary>☰</summary>
-                    <ul class="menu">
-                        <div class="menu-header">
-                            <h2>Area</h2>
-                        </div>
-                        <li><a href="#Benefits">Benefits</a></li>
-                        <li> <a href="#Specifications">Specifications</a></li>
-                        <li><a href="#How-to">How-to</a></li>
-                        <li><a href="#Contact Us">Contact Us</a></li>
-                        <button class="btn">Learn More</button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"
+                    aria-controls="mobileMenu">☰</button>
 
+                <nav class="menu" id="mobileMenu">
+                    <div class="menu-header">
+                        <h2>Area</h2>
+                    </div>
+                    <ul>
+                        <li><a href="#Benefits">Benefits</a></li>
+                        <li><a href="#Specifications">Specifications</a></li>
+                        <li><a href="#How-to">How-to</a></li>
+                        <li><a href="#Contact-Us">Contact Us</a></li>
                     </ul>
-                </details>
+                    <button class="btn">Learn More</button>
+                </nav>
             </div>
 
             <div class="tabs">
                 <a href="#Benefits">Benefits</a>
                 <a href="#Specifications">Specifications</a>
                 <a href="#How-to">How-to</a>
-                <a href="#Contact Us">Contact Us</a>
+                <a href="#Contact-Us">Contact Us</a>
             </div>
-
         </div>
 
         <div class="bt">
@@ -273,7 +277,7 @@
 
     </section>
 
-    <section class="connect" id="Contact Us">
+    <section class="connect" id="Contact-Us">
         <div class="Contact">
             <h2>Connect with us</h2>
             <p>Schedule a quick call to learn how Area can turn your regional data into a powerful
@@ -308,7 +312,7 @@
             <h6>All Rights Reserved</h6>
         </div>
     </section>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
